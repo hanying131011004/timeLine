@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+.time-line-box{
+  width: 100%;
+  padding: 0 20px;
+  height: 80px;
+  position: relative;
+}
+.time-line{
+  border-bottom: 1px solid #000;
+  height: 35px;
+  width: 100%;
+  position: relative;
+}
+.start-cut,.end-cut{
+  position: absolute;
+  height: 80px;
+  width: 20px;
+  border-left: 1px solid #ff0000;
+  left: 20px;
+  top: 0;
+}
+.end-cut{
+  border-left: 1px solid blue;
+}
+.tik{
+  width: 10px;
+  height: 10px;
+  
+  border-left: 1px solid #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.long-tik{
+  height: 15px;
+}
+.time-text{
+  position: absolute;
+  top: 1px;
+}
